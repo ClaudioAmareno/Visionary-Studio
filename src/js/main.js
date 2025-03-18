@@ -10,4 +10,4 @@ const handleCurrenYear = () => {
 }
 
 handleCurrenYear()
-window.addEventListener('scroll', handleObserver)
+// window.addEventListener('scroll', handleObserver)

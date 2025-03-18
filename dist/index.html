@@ -6,17 +6,18 @@
   <link rel="icon" type="image/svg+xml" media="(prefers-color-scheme: dark)" href="/assets/white-camera-icon-DTncWtcK.svg" />
   <link rel="icon" type="image/svg+xml" media="(prefers-color-scheme: light)" href="/assets/black-camera-icon-BA7CSRUC.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Luksusowe zdjęcia i filmy na każdą okazję. Pomagamy wielkim firmom jaki prywatnym osobą w uwiecznianiu najważniejszych chwil.">
   <title>Visionary Studio</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-  <script type="module" crossorigin src="/assets/index-C7iK11lu.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-DSiZSA86.css">
+  <script type="module" crossorigin src="/assets/index-Cy0eq7Ri.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-hEvB2fJl.css">
 </head>
 
 <body>
   <!-- Navigation -->
-  <nav class="sticky py-4 top-0 bg-gray text-white z-10">
+  <nav class="nav sticky py-4 top-0 bg-gray text-white z-10">
     <div class="max-w-[1200px] container flex justify-between">
       <div class="flex items-center text-main">
         <a href="#home" class="mr-4 text-2xl mobile:text-4xl tablet:text-5xl ti ti-camera"></a>
@@ -26,10 +27,10 @@
       <!-- Desktop Navigation -->
       <div class="hidden tablet:flex items-center tablet:text-lg desktop:text-xl text-white">
         <ul class="flex space-x-3 desktop:space-x-5">
-          <li><a href="" class="p-2">O nas</a></li>
-          <li><a href="" class="p-2">Portfolio</a></li>
-          <li><a href="" class="p-2">Oferta</a></li>
-          <li><a href="" class="p-2">Kontakt</a></li>
+          <li><a href="#about" class="relative p-2 after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-full after:bg-main after:scale-y-0 hover:after:scale-y-100 after:scale-x-0 after:origin-right hover:after:scale-x-100 hover:after:origin-left after:transition-transform after:duration-300">O nas</a></li>
+          <li><a href="#portfolio" class="relative p-2 after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-full after:bg-main after:scale-y-0 hover:after:scale-y-100 after:scale-x-0 after:origin-right hover:after:scale-x-100 hover:after:origin-left after:transition-transform after:duration-300">Portfolio</a></li>
+          <li><a href="#offer" class="relative p-2 after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-full after:bg-main after:scale-y-0 hover:after:scale-y-100 after:scale-x-0 after:origin-right hover:after:scale-x-100 hover:after:origin-left after:transition-transform after:duration-300">Oferta</a></li>
+          <li><a href="#contact" class="relative p-2 after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-full after:bg-main after:scale-y-0 hover:after:scale-y-100 after:scale-x-0 after:origin-right hover:after:scale-x-100 hover:after:origin-left after:transition-transform after:duration-300">Kontakt</a></li>
         </ul>
       </div>
       <!-- Mobile Navigation - Burger Menu -->
@@ -45,29 +46,26 @@
     <!-- Mobile Navigation Screen -->
   </nav>
   <!-- Header -->
-  <header>
+  <header id="home">
     <div class="relative">
       <img src="/assets/hero-img-CyZNxUvJ.jpg" alt=""
         class="tablet:h-[450px] large-desktop:h-[550px] w-full object-cover brightness-40">
       <div class="container absolute max-w-[1200px] flex flex-col justify-center inset-0 px-4 text-white">
-        <div class="w-[50%]">
+        <div class="w-[60%]">
           <h1
-            class="mb-1 mobile:mb-2 tablet:mb-4 text-lg mobile:text-2xl tablet:text-4xl/12 desktop:text-5xl/16 font-bold">
-            To
-            jest nagłówek H1 Taka długość</h1>
-          <p class="mb-7 tablet:mb-10 text-xs mobile:text-sm tablet:text-xl desktop:text-lg font-semibold">To jest
-            paragraf taka
-            długość a może gdzieś tyle</p>
+            class="mb-1 mobile:mb-2 tablet:mb-4 text-lg mobile:text-2xl tablet:text-4xl/12 desktop:text-5xl/16 font-bold uppercase">
+            Luksusowa fotografia i filmy premium</h1>
+          <p class="mb-7 tablet:mb-10 text-xs mobile:text-sm tablet:text-xl desktop:text-lg font-semibold">
+            Opowiadamy historie przez obiektyw, bo każdy kadr to opowieść o Tobie</p>
           <button
-            class="px-4 mobile:px-6 tablet:px-7 py-2 mobile:py-3 tablet:py-4 text-xs mobile:text-sm tablet:text-xl desktop:text-lg rounded-xl tablet:rounded-2xl bg-cta font-semibold cursor-pointer">TO
-            BĘDZIE CTA</button>
+            class="px-4 mobile:px-6 tablet:px-7 py-2 mobile:py-3 tablet:py-4 text-xs mobile:text-sm tablet:text-xl desktop:text-lg rounded-xl tablet:rounded-2xl bg-cta font-semibold cursor-pointer"><a href="#offer">SPRAWDŹ OFERTĘ</a></button>
         </div>
       </div>
     </div>
   </header>
   <main>
     <!-- Section About Us -->
-    <section class="bg-white pb-6">
+    <section class="section bg-white pb-6 scroll-mt-20" id="about">
       <div class="container pt-5 mobile:pt-8 desktop:pt-13 text-black ">
         <div class="flex justify-center">
           <div class="relative inline-block mb-7 mobile:mb-10 desktop:mb-14">
@@ -80,18 +78,15 @@
           <div class="tablet:grid tablet:grid-cols-2 tablet:gap-x-[60px]">
             <img src="/assets/about-us-img-BrX_5HIH.jpg" alt="" class="mb-6 mobile:mb-8">
             <div class="text-sm/6  tablet:text-base desktop:text-lg desktop:pr-8 large-desktop:pr-25">
-              <p class="mb-6 desktop:mb-12">Lorem ipsum risus lacinia urna tempus eget congue venenatis risus ut
-                pharetra id auctor congue lacinia
-                aliquet rhoncus ornare sed congue donec integer ut sed. </p>
-              <p>Lorem ipsum risus lacinia urna tempus eget congue venenatis risus ut pharetra id auctor congue lacinia
-                aliquet rhoncus ornare sed congue donec integer ut sed.</p>
+              <p class="mb-6 desktop:mb-12">Jesteśmy pasjonatami fotografii i filmu, którzy tworzą wyjątkowe historie. Nasza praca to połączenie <span class="font-bold">kreatywności, profesjonalizmu i dbałości o detale.</span></p>
+              <p>Zawsze stawiamy na <span class="font-bold">autentyczność i emocje</span>, wierzymy, że każda chwila zasługuje na uwiecznienie. Jesteśmy tu, by uchwycić to, co najważniejsze w Twoim życiu.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Section Portfolio -->
-    <section class="pb-6 bg-gray text-white">
+    <section class="section pb-6 bg-gray text-white scroll-mt-20" id="portfolio">
       <div class="container pt-5 mobile:pt-8 desktop:pt-13">
         <div class="flex justify-center">
           <div class="relative inline-block mb-7 mobile:mb-10 desktop:mb-14">
@@ -103,57 +98,54 @@
         <div class="desktop:mb-14">
           <h3 class="mb-4 desktop:mb-8 text-lg tablet:text-xl desktop:text-3xl font-semibold">Fotografia ślubna</h3>
           <div class="mb-4 tablet:mb-6 desktop:mb-8 tablet:grid tablet:grid-cols-2">
-            <img src="/assets/weeding-img-1-DONqWOJH.jpg" alt="" class="h-full">
-            <img src="/assets/weeding-img-3-DTkHKp4_.jpg" alt="" class="h-full hidden tablet:flex">
-            <img src="/assets/weeding-img-4-CNArQiVn.jpg" alt="" class="h-full hidden tablet:flex">
-            <img src="/assets/weeding-img-2-BH8L31OS.jpg" alt="" class="h-full hidden tablet:flex">
-            <button
-              class="mt-4 flex justify-self-center tablet:hidden px-4 mobile:px-6 py-2 mobile:py-3 text-center text-xs mobile:text-sm rounded-xl tablet:rounded-2xl bg-gray border border-main">Zobacz
-              więcej<i class="ti ti-arrow-down ml-2 self-center text-main"></i></button>
-
+            <img src="/assets/weeding-img-1-DONqWOJH.jpg" alt="" class="w-full h-full object-cover">
+            <img src="/assets/weeding-img-3-DTkHKp4_.jpg" alt="" class="w-full h-full object-cover hidden tablet:flex">
+            <img src="/assets/weeding-img-4-CNArQiVn.jpg" alt="" class="w-full h-full object-cover hidden tablet:flex">
+            <img src="/assets/weeding-img-2-BH8L31OS.jpg" alt="" class="w-full h-full object-cover hidden tablet:flex">
+            <div class="flex justify-center tablet:hidden">
+              <button
+                class="mt-4 flex justify-self-center tablet:hidden px-4 mobile:px-6 py-2 mobile:py-3 text-center text-xs mobile:text-sm rounded-xl tablet:rounded-2xl bg-gray border border-main">Zobacz
+                więcej<i class="ti ti-arrow-down ml-2 self-center text-main"></i></button>
+            </div>
           </div>
-          <p class="mb-5 tablet:mb-7 tablet:px-15 desktop:px-25 text-sm/6  tablet:text-base desktop:text-lg">Lorem ipsum
-            dolor sit amet
-            consectetur. Vel id in purus
-            hendrerit. Aliquet nulla dolor faucibus nulla gravida. Aliquet nulla dolor faucibus nulla gravida. Aliquet
-            nulla dolor faucibus nulla gravida.</p>
+          <p class="mb-5 tablet:mb-7 tablet:px-15 desktop:px-25 text-sm/6  tablet:text-base desktop:text-lg">Fotografia ślubna Basi i Marcina, uwieczniająca ich emocje, miłość i wyjątkowy klimat dnia. Każde zdjęcie to odzwierciedlenie ich szczęścia i bliskości.</p>
         </div>
         <div class="desktop:mb-14">
           <h3 class="mb-4 desktop:mb-8 text-lg tablet:text-xl desktop:text-3xl font-semibold">Fotografia reklamowa</h3>
           <div class="mb-4 tablet:mb-6 desktop:mb-8 tablet:grid tablet:grid-cols-2">
-            <img src="/assets/adds-img-3-pTrTmc4R.jpg" alt="" class="h-full">
-            <img src="/assets/adds-img-4-CZWA8e4l.jpg" alt="" class="h-full hidden tablet:flex">
-            <img src="/assets/adds-img-2-BdBJAsyU.jpg" alt="" class="h-full hidden tablet:flex">
-            <img src="/assets/adds-img-1-FQnR8-Ni.jpg" alt="" class="h-full hidden tablet:flex">
-            <button
-              class="mt-4 flex justify-self-center tablet:hidden px-4 mobile:px-6 py-2 mobile:py-3 text-center text-xs mobile:text-sm rounded-xl tablet:rounded-2xl bg-gray border border-main">Zobacz
-              więcej<i class="ti ti-arrow-down ml-2 self-center text-main"></i></button>
+            
+              <img src="/assets/adds-img-3-pTrTmc4R.jpg" alt="" class="w-full h-full object-cover">
+            
+              <img src="/assets/adds-img-4-CZWA8e4l.jpg" alt="" class="w-full h-full object-cover hidden tablet:flex">
+            
+              <img src="/assets/adds-img-2-BdBJAsyU.jpg" alt="" class="w-full h-full object-cover hidden tablet:flex">
+            
+              <img src="/assets/adds-img-1-FQnR8-Ni.jpg" alt="" class="w-full h-full object-cover hidden tablet:flex">
+            <div class="flex justify-center tablet:hidden">
+              <button
+                class="mt-4 flex justify-self-center tablet:hidden px-4 mobile:px-6 py-2 mobile:py-3 text-center text-xs mobile:text-sm rounded-xl tablet:rounded-2xl bg-gray border border-main">Zobacz
+                więcej<i class="ti ti-arrow-down ml-2 self-center text-main"></i></button>
+            </div>
           </div>
-          <p class="mb-5 tablet:mb-7 tablet:px-15 desktop:px-25 text-sm/6 tablet:text-base desktop:text-lg">Lorem ipsum
-            dolor sit amet
-            consectetur. Vel id in purus
-            hendrerit. Aliquet nulla dolor faucibus nulla gravida. Aliquet nulla dolor faucibus nulla gravida. Aliquet
-            nulla dolor faucibus nulla gravida.</p>
+          <p class="mb-5 tablet:mb-7 tablet:px-15 desktop:px-25 text-sm/6 tablet:text-base desktop:text-lg">Sesja reklamowa z alkoholami, której celem było uchwycenie wyjątkowych detali butelek i etykiet. Profesjonalne oświetlenie podkreśliło charakter każdego produktu.</p>
         </div>
         <div class="desktop:mb-7">
           <h3 class="mb-4 desktop:mb-8 text-lg tablet:text-xl desktop:text-3xl font-semibold">Fotografia produktowa</h3>
           <div class="mb-4 tablet:mb-6 desktop:mb-8 tablet:grid tablet:grid-cols-2">
-            <img src="/assets/products-img-2-Dds-ejMY.jpg" alt="" class="h-full">
-            <img src="/assets/products-img-1-VXf39sZP.jpg" alt="" class="h-full hidden tablet:flex">
-            <button
-              class="mt-4 flex justify-self-center tablet:hidden px-4 mobile:px-6 py-2 mobile:py-3 text-center text-xs mobile:text-sm rounded-xl tablet:rounded-2xl bg-gray border border-main">Zobacz
-              więcej<i class="ti ti-arrow-down ml-2 self-center text-main"></i></button>
+            <img src="/assets/products-img-2-Dds-ejMY.jpg" alt="" class="w-full h-full object-cover ">
+            <img src="/assets/products-img-1-VXf39sZP.jpg" alt="" class="w-full h-full object-cover hidden tablet:flex">
+            <div class="flex justify-center tablet:hidden">
+              <button
+                class="mt-4 px-4 mobile:px-6 py-2 mobile:py-3 text-center text-xs mobile:text-sm rounded-xl tablet:rounded-2xl bg-gray border border-main">Zobacz
+                więcej<i class="ti ti-arrow-down ml-2 self-center text-main"></i></button>
+            </div>
           </div>
-          <p class="tablet:px-15 desktop:px-25 text-sm tablet:text-base desktop:text-lg">Lorem ipsum dolor sit amet
-            consectetur. Vel
-            id in purus
-            hendrerit. Aliquet nulla dolor faucibus nulla gravida. Aliquet nulla dolor faucibus nulla gravida. Aliquet
-            nulla dolor faucibus nulla gravida.</p>
+          <p class="tablet:px-15 desktop:px-25 text-sm tablet:text-base desktop:text-lg">Sesja zdjęciowa dla produktów z branży beauty, skupiająca się na detalu i estetyce. Każdy produkt został uchwycony w odpowiednim oświetleniu, podkreślając jego teksturę, kolory i elegancję.</p>
         </div>
       </div>
     </section>
     <!-- Section Offer -->
-    <section class="pb-10 bg-white text-black">
+    <section class="section pb-10 bg-white text-black scroll-mt-20" id="offer">
       <div class="container mb-10 pt-5 mobile:pt-8 desktop:pt-13 text-black">
         <div class="flex justify-center">
           <div class="relative inline-block mb-7 mobile:mb-10 desktop:mb-14">
@@ -162,9 +154,7 @@
               OFERTA</h2>
           </div>
         </div>
-        <p class="tablet:px-15 desktop:px-25 text-sm tablet:text-base desktop:text-lg">Lorem ipsum dolor sit amet
-          consectetur. Massa
-          cras dictumst in malesuada male mi aenean. Quisque etiam pulvinar neque neque nam eu.</p>
+        <p class="tablet:px-15 desktop:px-25 text-sm tablet:text-base desktop:text-lg">Specjalizujemy się w fotografii ślubnej, produktowej i reklamowej oraz filmowaniu, oferując usługę na najwyższym poziomie.</p>
       </div>
       <div
         class="container space-y-4 tablet:space-y-0 tablet:grid tablet:grid-rows-2 tablet:grid-cols-[.1fr_3.2fr_3.2fr_3.2fr_3.2fr_.1fr] tablet:gap-3 desktop:grid-rows-1 desktop:grid-cols-3 desktop:gap-4 large-desktop:gap-10">
@@ -178,8 +168,7 @@
           <div class="text-center">
             <h3 class="min-h-[60px] desktop:mb-7 px-14 tablet:text-sm desktop:text-xl font-semibold">REALIZACJA FILMÓW
               REKLAMOWYCH</h3>
-            <p class="px-8 mb-4 text-lg/8 tablet:text-lg desktop:text-2xl/10 text-left">Lorem ipsum dolor sit amet
-              consectetur. Maecenas in odio lacus ultrices tempus vitae.</p>
+            <p class="px-8 mb-4 text-lg/8 tablet:text-lg desktop:text-2xl/10 text-left">Tworzymy dynamiczne filmy reklamowe, które skutecznie przyciągają uwagę i angażują.</p>
             <div class="pl-8 text-left font-semibold">
               <p class="mb-4 tablet:mb-2 text-main text-sm desktop:text-base">Dostępne pakiety:</p>
               <p class="mb-2 text-xs desktop:text-base">Pakiet podstawowy: 12-15 zdjęć - 450 zł</p>
@@ -197,8 +186,7 @@
           <div class="text-center">
             <h3 class="min-h-[60px] desktop:mb-7 px-14 tablet:text-sm desktop:text-xl font-semibold">PROFESJONALNE SESJE
               ZDJĘCIOWE</h3>
-            <p class="px-8 mb-4 text-lg/8 tablet:text-lg desktop:text-2xl/10 text-left">Lorem ipsum dolor sit amet
-              consectetur. Maecenas in odio lacus ultrices tempus vitae.</p>
+            <p class="px-8 mb-4 text-lg/8 tablet:text-lg desktop:text-2xl/10 text-left">Profesjonalne sesje zdjęciowe, które uchwycą najpiękniejsze chwile i emocje w Twoim życiu.</p>
             <div class="pl-8 text-left font-semibold">
               <p class="mb-4 tablet:mb-2 text-main text-sm desktop:text-base">Dostępne pakiety:</p>
               <p class="mb-2 text-xs desktop:text-base">Pakiet podstawowy: 12-15 zdjęć - 450 zł</p>
@@ -216,8 +204,7 @@
           <div class="text-center">
             <h3 class="min-h-[60px] desktop:mb-7 px-14 tablet:text-sm desktop:text-xl font-semibold">MONTAŻ I
               POSTPRODUKCJA</h3>
-            <p class="px-8 mb-4 text-lg/8 tablet:text-lg desktop:text-2xl/10 text-left">Lorem ipsum dolor sit amet
-              consectetur. Maecenas in odio lacus ultrices tempus vitae.</p>
+            <p class="px-8 mb-4 text-lg/8 tablet:text-lg desktop:text-2xl/10 text-left">Montaż i postprodukcja, które przeniosą Twoje materiały na wyższy poziom.</p>
             <div class="pl-8 text-left font-semibold">
               <p class="mb-4 tablet:mb-2 text-main text-sm desktop:text-base">Dostępne pakiety:</p>
               <p class="mb-2 text-xs desktop:text-base">Pakiet podstawowy: 12-15 zdjęć - 450 zł</p>
@@ -232,9 +219,9 @@
       </div>
     </section>
     <!-- Section Opinion -->
-    <section>
+    <section class="section">
       <div
-        class="relative h-[900px] tablet:h-[700px] desktop:h-[900px] bg-fixed bg-center bg-cover before:absolute before:inset-0 before:bg-black/50"
+        class="relative h-[900px] tablet:h-[600px] desktop:h-[900px] bg-fixed bg-center bg-cover before:absolute before:inset-0 before:bg-black/50"
         style="background-image: url('/assets/nature-parala-CQK2mQi9.jpg');">
         <div class="absolute flex justify-center inset-0 text-white pt-5 mobile:pt-8 desktop:pt-13">
           <div class="flex justify-center">
@@ -251,122 +238,175 @@
         <div
           class="absolute left-1/2 -translate-x-1/2 top-1/8 desktop:top-1/4 translate-y-10 container tablet:grid tablet:grid-rows-2 tablet:grid-cols-[.1fr_3.2fr_3.2fr_3.2fr_3.2fr_.1fr] tablet:gap-4 space-y-16 tablet:space-y-0">
           <div
-            class="relative pb-5 tablet:row-start-1 tablet:row-end-2 tablet:col-start-2 tablet:col-end-4 bg-white flex items-center justify-center pb-10 rounded-2xl">
+            class="relative pb-5 tablet:row-start-1 tablet:row-end-2 tablet:col-start-2 tablet:col-end-4 bg-white pb-10 rounded-2xl">
             <div class="mx-7 desktop:mx-14 flex flex-col justify-center items-center">
               <img src="/assets/face-1-DR0Wel_3.jpg" alt=""
                 class="h-[100px] w-[100px] absolute -top-1/4 desktop:-top-1/3 rounded-full">
               <p class="mt-17 tablet:mt-15 mb-2 desktop:mb-3 text-base desktop:text-xl font-bold">Marek Tekiela</p>
-              <p class="text-sm desktop:text-lg font-medium">Lorem ipsum dolor sit amet consectetur. Nisl tempus sed
-                enim vitae fermentum.</p>
+              <p class="text-sm desktop:text-lg font-medium">„Zdjęcia i filmy idealnie oddają naszą wizję. Świetny kontakt i szybka realizacja.”</p>
             </div>
           </div>
           <div
-            class="relative pb-5 tablet:row-start-1 tablet:row-end-2 tablet:col-start-4 tablet:col-end-6 bg-white flex items-center justify-center pb-10 rounded-2xl">
+            class="relative pb-5 tablet:row-start-1 tablet:row-end-2 tablet:col-start-4 tablet:col-end-6 bg-white pb-10 rounded-2xl">
             <div class="mx-7 desktop:mx-14 flex flex-col justify-center items-center">
               <img src="/assets/face-3-DA8YJg0g.jpg" alt=""
                 class="h-[100px] w-[100px] absolute -top-1/4 desktop:-top-1/3 rounded-full">
               <p class="mt-17 tablet:mt-15 mb-2 desktop:mb-3 text-base desktop:text-xl font-bold">Sebastian Białka</p>
-              <p class="text-sm desktop:text-lg font-medium">Lorem ipsum dolor sit amet consectetur. Nisl tempus sed
-                enim vitae fermentum.</p>
+              <p class="text-sm desktop:text-lg font-medium">„Dbałość o detale i wysoka jakość. Współpraca przebiegła sprawnie i bezproblemowo.”</p>
             </div>
           </div>
           <div
-            class="relative pb-5 tablet:row-start-2 tablet:row-end-3 tablet:col-start-3 tablet:col-end-5 bg-white flex items-center justify-center pb-10 rounded-2xl tablet:translate-y-15">
+            class="relative pb-5 tablet:row-start-2 tablet:row-end-3 tablet:col-start-3 tablet:col-end-5 bg-white pb-10 rounded-2xl tablet:transform tablet:translate-y-15 tablet:translate-x-0">
             <div class="mx-7 desktop:mx-14 flex flex-col justify-center items-center">
               <img src="/assets/face-2-DuW6N74c.jpg" alt=""
                 class="h-[100px] w-[100px] absolute -top-1/4 desktop:-top-1/3 rounded-full">
               <p class="mt-17 tablet:mt-15 mb-2 desktop:mb-3 text-base desktop:text-xl font-bold">Monika Czerwińska</p>
-              <p class="text-sm desktop:text-lg font-medium">Lorem ipsum dolor sit amet consectetur. Nisl tempus sed
-                enim vitae fermentum.</p>
+              <p class="text-sm desktop:text-lg font-medium">„Pełen profesjonalizm i kreatywność. Efekt końcowy przerósł nasze oczekiwania!”</p>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Section Contact -->
-    <section class="bg-gray text-white">
+    <section class="section bg-gray text-white scroll-mt-20" id="contact">
       <div class="container mb-10 pt-5 mobile:pt-8 desktop:pt-13">
         <div class="flex justify-center">
-          <div class="relative inline-block mb-7 mobile:mb-10 desktop:mb-14">
+          <div class="relative inline-block mb-6 mobile:mb-10 desktop:mb-14">
             <h2
               class="relative text-2xl mobile:text-3xl desktop:text-5xl font-semibold text-center after:absolute after:left-7/12 after:top-full after:h-[3px] tablet:after:h-[4px] desktop:after:h-[6px] after:w-[40px] mobile:after:w-[50px] tablet:after:w-[60px] desktop:after:w-[80px] after:bg-main after:content-[''] after:translate-x-5 desktop:after:translate-x-10 desktop:after:translate-y-2">
               KONTAKT</h2>
           </div>
         </div>
-        <p class="text-center text-3xl font-semibold">Napisz do nas i dowiedz się więcej!</p>
+        <p class="text-center text-lg desktop:text-3xl font-semibold">Masz projekt w głowie? Skontaktuj się z nami – porozmawiajmy o Twojej wizji!</p>
       </div>
       <div class="container">
         <form class="flex justify-center items-center">
           <ul class="min-w-[50%] space-y-10">
             <li>
               <div class="flex flex-col">
-                <label for="mail" class="text-2xl mb-2">Adres e-mail:</label>
-                <input type="text" class="h-[48px] pl-4 text-black bg-white rounded-2xl"
+                <label for="mail" class="text-lg desktop:text-2xl mb-2">Adres e-mail:</label>
+                <input type="text" class="py-3 pl-4 text-black bg-white rounded-2xl"
                   placeholder="jankowalski@gmail.com">
               </div>
             </li>
             <li>
               <div class="flex flex-col">
-                <label for="name" class="text-2xl mb-2">Imię i nazwisko:</label>
-                <input type="text" class="h-[48px] pl-4 text-black bg-white rounded-2xl" placeholder="Jan Kowalski">
+                <label for="name" class="text-lg desktop:text-2xl mb-2">Imię i nazwisko:</label>
+                <input type="text" class="py-3 pl-4 text-black bg-white rounded-2xl" placeholder="Jan Kowalski">
               </div>
             </li>
             <li>
               <div class="flex flex-col">
-                <label for="question" class="text-2xl mb-2">Zadaj pytanie:</label>
-                <textarea name="question" id="question" class="h-[48px] pl-4 text-black bg-white rounded-2xl"></textarea>
+                <label for="question" class="text-lg desktop:text-2xl mb-2">Zadaj pytanie:</label>
+                <textarea name="question" id="question" class="pl-4 text-black bg-white rounded-2xl"></textarea>
               </div>
               <button
-                class="mt-10 mb-3 desktop:px-14 desktop:py-4 text-xs mobile:text-sm tablet:text-xl desktop:text-lg rounded-xl tablet:rounded-2xl bg-main text-black font-bold cursor-pointer">
+                class="mt-5 desktop:mt-10 mb-3 px-10 desktop:px-14 py-3 text-sm tablet:text-lg desktop:text-lg rounded-xl tablet:rounded-2xl bg-main text-black font-bold cursor-pointer">
                 Prześlij</button>
-                <p>Klikając ten przycisk, wyrażasz zgodę na naszą <span class="text-main font-bold cursor-pointer">politykę prywatności</span>.</p>
+              <p class="text-xs desktop:text-base">Klikając ten przycisk, wyrażasz zgodę na naszą <span
+                  class="text-main font-bold cursor-pointer">politykę prywatności</span>.</p>
             </li>
           </ul>
         </form>
       </div>
-      <div class="container my-18 flex justify-between">
-        <div class="flex-col space-y-2">
+      <div
+        class="container max-w-[1000px] grid grid-cols-1 grid-rows-5 tablet:flex tablet:justify-between my-9 tablet:my-7 desktop:my-18">
+        <div class="flex-col mb-5 desktop:mb-0 space-y-2">
           <div class="flex justify-center">
-            <svg xmlns="http://www.w3.org/2000/svg"  width="60"  height="60"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-phone flex text-main cursor-pointer"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-phone flex text-main cursor-pointer">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+            </svg>
           </div>
-          <p>+48 123 456 789</p>
+          <p class="text-sm tablet:text-xs desktop:text-base text-center">+48 123 456 789</p>
         </div>
-        <div class="flex-col space-y-2">
+        <div class="flex-col mb-5 desktop:mb-0 space-y-2">
           <div class="flex justify-center">
-            <svg  xmlns="http://www.w3.org/2000/svg"  width="60"  height="60"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-youtube text-main cursor-pointer"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" /><path d="M10 9l5 3l-5 3z" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-brand-youtube text-main cursor-pointer">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
+              <path d="M10 9l5 3l-5 3z" />
+            </svg>
           </div>
-          <p>VisionaryStudioYT</p>
+          <p class="text-sm tablet:text-xs desktop:text-base text-center">VisionaryStudioYT</p>
         </div>
-        <div class="flex-col space-y-2">
+        <div class="flex-col mb-5 desktop:mb-0 space-y-2">
           <div class="flex justify-center">
-            <svg  xmlns="http://www.w3.org/2000/svg"  width="60"  height="60"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram text-main cursor-pointer"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M16.5 7.5v.01" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram text-main cursor-pointer">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+              <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+              <path d="M16.5 7.5v.01" />
+            </svg>
           </div>
-          <p>@visionary.eu</p>
+          <p class="text-sm tablet:text-xs desktop:text-base text-center">@visionary.eu</p>
         </div>
-        <div class="flex-col space-y-2">
+        <div class="flex-col mb-5 desktop:mb-0 space-y-2">
           <div class="flex justify-center">
-            <svg  xmlns="http://www.w3.org/2000/svg"  width="60"  height="60"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-home text-main cursor-pointer"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l-2 0l9 -9l9 9l-2 0" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-home text-main cursor-pointer">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+              <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+              <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+            </svg>
           </div>
-          <p>Łoniowa 601</p>
+          <p class="text-sm tablet:text-xs desktop:text-base text-center">Łoniowa 601</p>
         </div>
-        <div class="flex-col space-y-2">
+        <div class="flex-col mb-5 desktop:mb-0 space-y-2">
           <div class="flex justify-center">
-            <svg  xmlns="http://www.w3.org/2000/svg"  width="60"  height="60"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail text-main cursor-pointer"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-mail text-main cursor-pointer">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+              <path d="M3 7l9 6l9 -6" />
+            </svg>
           </div>
-          <p>visionarystudio@gmail.com</p>
+          <p class="text-sm tablet:text-xs desktop:text-base text-center">visionarystudio@gmail.com</p>
         </div>
       </div>
       <div class="container flex justify-center pb-10">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11253.177465214938!2d20.683902615522666!3d49.91576550895108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473d8995ca93ebbd%3A0x862522b5a1445aa5!2s32-854%20%C5%81oniowa!5e1!3m2!1spl!2spl!4v1742163092665!5m2!1spl!2spl" width="1180" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11253.177465214938!2d20.683902615522666!3d49.91576550895108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473d8995ca93ebbd%3A0x862522b5a1445aa5!2s32-854%20%C5%81oniowa!5e1!3m2!1spl!2spl!4v1742163092665!5m2!1spl!2spl"
+          width="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          class="h-[300px] desktop:h-[500px]"></iframe>
       </div>
     </section>
   </main>
   <footer class="bg-footer">
-<br>
-<br>
-<br>
-<br>
+    <div class="container max-w-[600px] desktop:max-w-[1000px] pt-10 pb-12">
+      <div class="flex justify-between items-start">
+        <div class="flex text-main">
+          <a href="#home"
+            class="mr-4 text-3xl tablet:text-4xl desktop:text-5xl ti ti-camera relative -translate-y-1 desktop:-translate-y-2"></a>
+          <a href="#home" class="text-sm mobile:text-base tablet:text-xl desktop:text-3xl font-bold">Visionary
+            Studio</a>
+        </div>
+        <div class="max-w-[50%] desktop:max-w-[100%]">
+          <p class="mb-3 text-sm tablet:text-xl desktop:text-2xl text-white font-medium">Bądź na bieżąco, zapisz się do newslettera!</p>
+          <form class="flex flex-col">
+            <label for="mail" class="mb-2 text-xs tablet:text-base text-white font-medium">Adres e-mail:</label>
+            <input type="text" class="py-3 pl-4 text-xs tablet:text-base text-black bg-white rounded-2xl" placeholder="jankowalski@gmail.com">
+            <button
+            class="max-w-[100px] mt-4 py-1 tablet:py-2 text-sm rounded-xl tablet:rounded-2xl bg-main text-black font-semibold cursor-pointer">
+            Prześlij</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <hr class="text-white">
+    <div class="p-5">
+      <p class="text-center text-white"> &copy; <span class="year"></span><span class="font-bold"> Visionary Studio</span></p>
+    </div>
   </footer>
 </body>
-
 </html>

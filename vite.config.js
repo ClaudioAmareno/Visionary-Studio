@@ -44,7 +44,7 @@ export default defineConfig(() => {
 			quality: 80,
 		},
 		jpg: {
-			quality: 40,
+			quality: 20,
 		},
 		webp: {
 			lossless: true,
