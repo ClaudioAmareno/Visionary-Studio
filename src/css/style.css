@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import "tailwindcss";
+@import 'tailwindcss';
 
-@theme{
-    --color-main: hsl(51, 100%, 50%);
+@theme {
+	--color-main: hsl(51, 100%, 50%);
 	--color-cta: hsl(231, 100%, 50%);
 	--color-white: hsl(340, 100%, 98%);
 	--color-gray: hsl(0, 0%, 27%);
-	--color-footer: hsl(0 , 0% , 18%);
+	--color-footer: hsl(0, 0%, 18%);
 	--color-black: hsl(0, 0%, 10%);
+	--color-error: hsl(0, 100%, 60%);
 
-    --font-*: initial;
-    --font-sans: "Montserrat", sans-serif;
+	--font-*: initial;
+	--font-sans: 'Montserrat', sans-serif;
 
 	--breakpoint-large-desktop: 1440px;
 	--breakpoint-desktop: 1280px;
@@ -18,7 +19,47 @@
 	--breakpoint-mobile: 480px;
 }
 
-@utility container{
+@utility container {
 	padding-inline: 1rem;
 	margin-inline: auto;
+}
+
+@layer utilities{
+	.border{
+		border-width: 1px;
+	}
+}
+
+.custom-active{
+	right: 0px;
+}
+
+.stop-scrolling {
+	height: 100%;
+	overflow: hidden;
+}
+
+.rotate-bar-second {
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(225deg);
+	background-color: hsl(51, 100%, 50%);
+}
+
+.rotate-bar-first {
+	opacity: 0;
+	background-color: hsl(51, 100%, 50%);
+}
+
+.rotate-bar-third {
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(-225deg);
+	background-color: hsl(51, 100%, 50%);
+}
+
+.show{
+	display: block;
+}
+
+.show-popup{
+	display: flex;
 }
