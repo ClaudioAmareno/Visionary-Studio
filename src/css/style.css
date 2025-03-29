@@ -9,6 +9,7 @@
 	--color-footer: hsl(0, 0%, 18%);
 	--color-black: hsl(0, 0%, 10%);
 	--color-error: hsl(0, 100%, 60%);
+	--color-maintwo: hsl(51, 100%, 40%);
 
 	--font-*: initial;
 	--font-sans: 'Montserrat', sans-serif;
